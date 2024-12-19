@@ -1,5 +1,5 @@
 import { Link } from "@inertiajs/react";
-import { useRoute } from "../../../vendor/tightenco/ziggy/src/js";
+import { useRoute } from "../../../vendor/tightenco/ziggy";
 import { formatDate } from "./formatDate";
 export default function AuthorDate({ author, date, userId }) {
     const route = useRoute();
